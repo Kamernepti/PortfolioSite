@@ -35,10 +35,10 @@ body {
 }
 
 
-/* MARKETING CONTENT
-  -------------------------------------------------- */
+/* FEATURE CONTENT
+-------------------------------------------------- */
 
-  /* Center align the text within the three columns below the carousel */
+/* Center align the text within the three columns below the carousel */
 .about .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -46,22 +46,22 @@ body {
 .about h2 {
     font-weight: 400;
 }
-  /* rtl:begin:ignore */
+/* rtl:begin:ignore */
 .about.col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
 }
-  /* rtl:end:ignore */
+/* rtl:end:ignore */
 
 
 /* Featurettes
-  ------------------------- */
+------------------------- */
 
 .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-  /* Thin out the headings */
+/* Thin out the headings */
 .featurette-heading {
     font-weight: 300;
     line-height: 1;
@@ -69,6 +69,14 @@ body {
     letter-spacing: -.05rem;
 }
 
+.col-md-5 ul{
+    list-style-type: none;
+    margin: 1.5rem 0;
+}
+
+.col-md-5 li{
+    margin: .25rem 0;
+}
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
@@ -88,6 +96,6 @@ body {
 
 @media (min-width: 62em) {
     .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 3.5rem;
     }
 }
