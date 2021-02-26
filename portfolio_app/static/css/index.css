@@ -10,19 +10,19 @@ body {
 
 
 /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
+-------------------------------------------------- */
 
-  /* Carousel base class */
+/* Carousel base class */
 .carousel {
     margin-bottom: 4rem;
 }
-  /* Since positioning the image, we need to help out the caption */
+/* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
 }
 
-  /* Declare heights because of positioning of img element */
+/* Declare heights because of positioning of img element */
 .carousel-item {
     height: 32rem;
 }
@@ -61,7 +61,7 @@ body {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-  /* Thin out the marketing headings */
+  /* Thin out the headings */
 .featurette-heading {
     font-weight: 300;
     line-height: 1;
