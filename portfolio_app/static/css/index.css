@@ -22,6 +22,17 @@ body {
     z-index: 10;
 }
 
+.carousel-caption h1{
+    color:rgb(30, 187, 179);
+    text-shadow: .15rem .15rem .15rem white;
+}
+
+.carousel-subtext{
+    color:rgb(24, 92, 88);
+    text-shadow: .08rem .08rem .1rem white;
+    font-weight: bold;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
     height: 32rem;
@@ -79,7 +90,7 @@ body {
 }
 
 /* RESPONSIVE CSS
-  -------------------------------------------------- */
+-------------------------------------------------- */
 
 @media (min-width: 40em) {
     /* Bump up size of carousel content */
